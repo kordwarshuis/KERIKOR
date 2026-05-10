@@ -6,15 +6,15 @@
 
 import fs from 'fs';
 import path from 'path';
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 function sitemapHtmlPlugin(context, options) {
-  const {siteConfig} = context;
+  const { siteConfig } = context;
   return {
     name: 'docusaurus-plugin-human-readable-sitemap',
-    async postBuild({outDir, routesPaths}) {
+    async postBuild({ outDir, routesPaths }) {
       if (!routesPaths) {
         return;
       }
@@ -105,6 +105,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarCollapsed: false,   // All categories expanded by default
+          // sidebarCollapsible: false, // Optional: disable collapsing entirely
         },
         blog: {
           showReadingTime: true,
