@@ -30,7 +30,7 @@ function Sitemap() {
             <ul>
               {docs.map((doc) => (
                 <li key={doc.permalink}>
-                  <Link to={doc.permalink}>{doc.title}</Link>
+                  <a href={doc.permalink}>{doc.title}</a>
                 </li>
               ))}
             </ul>
