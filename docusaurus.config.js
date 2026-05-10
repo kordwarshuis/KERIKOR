@@ -134,7 +134,15 @@ const config = {
     ],
   ],
 
-  plugins: [sitemapHtmlPlugin],
+  plugins: [
+    sitemapHtmlPlugin,
+    [
+      'docusaurus-lunr-search',
+      {
+        languages: ['en'],
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
