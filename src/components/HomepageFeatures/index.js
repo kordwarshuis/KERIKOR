@@ -5,28 +5,28 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'KERI',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/keri.svg').default,
     description: (
       <>
-        🔑
+        Key Event Receipt Infrastructure
       </>
     ),
   },
   {
     title: 'ACDC',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/acdc.svg').default,
     description: (
       <>
-        🔑
+        Authentic Chained Data Container
       </>
     ),
   },
   {
     title: 'CESR',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/cesr.svg').default,
     description: (
       <>
-        🔑
+        Composable Event Streaming Representation
       </>
     ),
   },
