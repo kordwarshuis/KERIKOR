@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="a" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#5b21b6" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="#0f172a" rx="36" />
+  <rect width="176" height="176" x="12" y="12" fill="url(#a)" opacity=".18" rx="30" />
+  <path stroke="#e2e8f0" stroke-width="5" d="M30 160h140" opacity=".2" />
+  <text x="100" y="78" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="40"
+    font-weight="800" text-anchor="middle">KERI</text>
+  <text x="100" y="132" fill="#bae6fd" font-family="Inter, Arial, sans-serif" font-size="30"
+    font-weight="700" text-anchor="middle">KOR</text>
+  <circle cx="100" cy="100" r="56" fill="none" stroke="#7c3aed" stroke-width="6" opacity=".35" />
+</svg>
