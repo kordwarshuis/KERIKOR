@@ -210,3 +210,4 @@ That distinction is what gives pre-rotation its security value.
 ## One-Sentence Summary
 
 Pre-rotation lets KERI commit future control authority in advance using cryptographic commitments, so compromise of current keys does not automatically allow permanent identifier takeover.
+
