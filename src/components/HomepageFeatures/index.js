@@ -4,33 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Key Event Receipt Infrastructure',
+    title: 'KERI',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        KERI delivers secure, verifiable identity using self-certifying keys and
-        event logs, enabling decentralized agents to authenticate state changes
-        without centralized trust.
+        🔑
       </>
     ),
   },
   {
-    title: 'Self-Sovereign Identity',
+    title: 'ACDC',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Build identities that rotate keys, prove ownership, and interoperate across
-        ecosystems while keeping control with the key owner, not a third party.
+        🔑
       </>
     ),
   },
   {
-    title: 'Composable Credential Flows',
+    title: 'CESR',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Create rich trust architectures with workflows for issuance, rotation,
-        delegation, and verification using KERI&apos;s event-driven architecture.
+        🔑
       </>
     ),
   },
